@@ -9,6 +9,7 @@ export const TECHNOLOGY_CATEGORIES: Array<{ id: TechnologyCategory; label: strin
   { id: "devops", label: "DevOps & CI/CD" },
   { id: "ai", label: "AI & Machine Learning" },
   { id: "tool", label: "Development Tools" },
+  { id: "os", label: "Operating Systems & Shells" },
   { id: "other", label: "Other Services & APIs" }
 ];
 

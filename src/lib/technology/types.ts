@@ -7,6 +7,7 @@ export type TechnologyCategory =
   | "devops"
   | "ai"
   | "tool"
+  | "os"
   | "other";
 
 export type TechnologySource = "skillicon" | "devicon" | "custom";

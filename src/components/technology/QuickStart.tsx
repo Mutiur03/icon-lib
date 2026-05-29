@@ -8,9 +8,9 @@ export function QuickStart() {
   const [copied, setCopied] = useState(false);
 
   const snippets = {
-    markdown: `![JavaScript](https://iconlib.dev/api/icons/javascript)\n![React](https://iconlib.dev/api/icons/react?theme=dark)`,
-    html: `<img src="https://iconlib.dev/api/icons/javascript" width="48" height="48" alt="JS" />\n<img src="https://iconlib.dev/api/icons/react?theme=dark" width="48" height="48" alt="React" />`,
-    react: `import Image from "next/image";\n\nexport function TechList() {\n  return (\n    <div className="flex gap-4">\n      <img src="https://iconlib.dev/api/icons/javascript" alt="JS" className="w-12 h-12" />\n      <img src="https://iconlib.dev/api/icons/react?theme=dark" alt="React" className="w-12 h-12" />\n    </div>\n  );\n}`,
+    markdown: `![JavaScript](https://icon-lib-nu.vercel.app/api/icons/javascript)\n![React](https://icon-lib-nu.vercel.app/api/icons/react?theme=dark)`,
+    html: `<img src="https://icon-lib-nu.vercel.app/api/icons/javascript" width="48" height="48" alt="JS" />\n<img src="https://icon-lib-nu.vercel.app/api/icons/react?theme=dark" width="48" height="48" alt="React" />`,
+    react: `import Image from "next/image";\n\nexport function TechList() {\n  return (\n    <div className="flex gap-4">\n      <img src="https://icon-lib-nu.vercel.app/api/icons/javascript" alt="JS" className="w-12 h-12" />\n      <img src="https://icon-lib-nu.vercel.app/api/icons/react?theme=dark" alt="React" className="w-12 h-12" />\n    </div>\n  );\n}`,
   };
 
   const handleCopy = () => {

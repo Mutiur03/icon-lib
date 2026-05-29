@@ -476,6 +476,17 @@
     "iconSources": { "custom": "/icons/custom/langchain.svg" }
   },
   {
+    "id": "langgraph",
+    "name": "LangGraph",
+    "category": "ai",
+    "source": "custom",
+    "iconUrl": "/icons/custom/langgraph.svg",
+    "website": "https://langchain-ai.github.io/langgraph/",
+    "featured": true,
+    "color": "#13b495",
+    "iconSources": { "custom": "/icons/custom/langgraph.svg" }
+  },
+  {
     "id": "pytorch",
     "name": "PyTorch",
     "category": "ai",
@@ -669,5 +680,35 @@
     "website": "https://azure.microsoft.com/",
     "color": "#0078d4",
     "iconSources": { "skillicon": "azure" }
+  },
+  {
+    "id": "ubuntu",
+    "name": "Ubuntu",
+    "category": "os",
+    "source": "skillicon",
+    "iconUrl": "ubuntu",
+    "website": "https://ubuntu.com/",
+    "color": "#e95420",
+    "iconSources": { "skillicon": "ubuntu", "devicon": "ubuntu" }
+  },
+  {
+    "id": "linux",
+    "name": "Linux",
+    "category": "os",
+    "source": "skillicon",
+    "iconUrl": "linux",
+    "website": "https://www.linux.org/",
+    "color": "#fcc624",
+    "iconSources": { "skillicon": "linux", "devicon": "linux" }
+  },
+  {
+    "id": "bash",
+    "name": "Bash",
+    "category": "os",
+    "source": "skillicon",
+    "iconUrl": "bash",
+    "website": "https://www.gnu.org/software/bash/",
+    "color": "#4eaa25",
+    "iconSources": { "skillicon": "bash", "devicon": "bash" }
   }
  ]
