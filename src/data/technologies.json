@@ -488,11 +488,11 @@
     "id": "clerk",
     "name": "Clerk",
     "category": "other",
-    "source": "skillicon",
-    "iconUrl": "clerk",
+    "source": "custom",
+    "iconUrl": "/icons/custom/clerk.svg",
     "website": "https://clerk.com/",
     "color": "#6c47ff",
-    "iconSources": { "skillicon": "clerk" }
+    "iconSources": { "custom": "/icons/custom/clerk.svg" }
   },
   {
     "id": "stripe",
@@ -527,16 +527,6 @@
     "iconSources": { "skillicon": "terraform" }
   },
   {
-    "id": "ansible",
-    "name": "Ansible",
-    "category": "devops",
-    "source": "skillicon",
-    "iconUrl": "ansible",
-    "website": "https://www.ansible.com/",
-    "color": "#000000",
-    "iconSources": { "skillicon": "ansible" }
-  },
-  {
     "id": "jenkins",
     "name": "Jenkins",
     "category": "devops",
@@ -555,16 +545,6 @@
     "website": "https://about.gitlab.com/",
     "color": "#fc6d26",
     "iconSources": { "skillicon": "gitlab" }
-  },
-  {
-    "id": "circleci",
-    "name": "CircleCI",
-    "category": "devops",
-    "source": "skillicon",
-    "iconUrl": "circleci",
-    "website": "https://circleci.com/",
-    "color": "#343434",
-    "iconSources": { "skillicon": "circleci" }
   },
   {
     "id": "prometheus",
@@ -587,24 +567,14 @@
     "iconSources": { "skillicon": "grafana" }
   },
   {
-    "id": "datadog",
-    "name": "Datadog",
-    "category": "devops",
-    "source": "skillicon",
-    "iconUrl": "datadog",
-    "website": "https://www.datadoghq.com/",
-    "color": "#667eea",
-    "iconSources": { "skillicon": "datadog" }
-  },
-  {
     "id": "kafka",
     "name": "Apache Kafka",
     "category": "tool",
-    "source": "skillicon",
-    "iconUrl": "apachekafka",
+    "source": "custom",
+    "iconUrl": "/icons/custom/kafka.svg",
     "website": "https://kafka.apache.org/",
     "color": "#231f20",
-    "iconSources": { "skillicon": "apachekafka" }
+    "iconSources": { "custom": "/icons/custom/kafka.svg" }
   },
   {
     "id": "rabbitmq",
@@ -617,26 +587,6 @@
     "iconSources": { "skillicon": "rabbitmq" }
   },
   {
-    "id": "elasticsearch",
-    "name": "Elasticsearch",
-    "category": "tool",
-    "source": "skillicon",
-    "iconUrl": "elasticsearch",
-    "website": "https://www.elastic.co/elasticsearch/",
-    "color": "#005571",
-    "iconSources": { "skillicon": "elasticsearch" }
-  },
-  {
-    "id": "kibana",
-    "name": "Kibana",
-    "category": "tool",
-    "source": "skillicon",
-    "iconUrl": "kibana",
-    "website": "https://www.elastic.co/kibana/",
-    "color": "#005571",
-    "iconSources": { "skillicon": "kibana" }
-  },
-  {
     "id": "jest",
     "name": "Jest",
     "category": "tool",
@@ -647,16 +597,6 @@
     "iconSources": { "skillicon": "jest" }
   },
   {
-    "id": "playwright",
-    "name": "Playwright",
-    "category": "tool",
-    "source": "skillicon",
-    "iconUrl": "playwright",
-    "website": "https://playwright.dev/",
-    "color": "#000000",
-    "iconSources": { "skillicon": "playwright" }
-  },
-  {
     "id": "azure",
     "name": "Microsoft Azure",
     "category": "cloud",
@@ -664,6 +604,6 @@
     "iconUrl": "microsoftazure",
     "website": "https://azure.microsoft.com/",
     "color": "#0078d4",
-    "iconSources": { "skillicon": "microsoftazure" }
+    "iconSources": { "skillicon": "azure" }
   }
  ]
