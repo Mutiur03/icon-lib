@@ -11,7 +11,10 @@ export async function GET(request: Request, { params }: { params: Promise<{ id: 
   const url = new URL(request.url);
   const theme = url.searchParams.get("theme") || url.searchParams.get("t") || undefined;
   
-  const technology = technologies.find((item) => item.id === id);
+  const normalizedId = id.toLowerCase();
+  const technology = technologies.find(
+    (item) => item.id.toLowerCase() === normalizedId || item.aliases?.some((alias) => alias.toLowerCase() === normalizedId)
+  );
   const iconUrl = technology ? resolveProviderTechnologyIcon(technology, theme).resolvedIconUrl : FALLBACK_ICON_URL;
 
   try {
@@ -116,8 +119,8 @@ function injectThemeStyleToSvg(svgText: string, theme?: string): string {
     ${
       theme === "dark"
         ? `
-      [fill="#000000" i], [fill="#000" i], [fill="black" i], [fill="#231f20" i], [fill="#111111" i], [fill="#111" i], [fill="#010101" i] { fill: #ffffff !important; }
-      [stroke="#000000" i], [stroke="#000" i], [stroke="black" i], [stroke="#231f20" i], [stroke="#111111" i], [stroke="#111" i], [stroke="#010101" i] { stroke: #ffffff !important; }
+      [fill="#000000" i], [fill="#000" i], [fill="black" i], [fill="#231f20" i], [fill="#111111" i], [fill="#111" i], [fill="#010101" i], [fill="#1c3c3c" i] { fill: #ffffff !important; }
+      [stroke="#000000" i], [stroke="#000" i], [stroke="black" i], [stroke="#231f20" i], [stroke="#111111" i], [stroke="#111" i], [stroke="#010101" i], [stroke="#1c3c3c" i] { stroke: #ffffff !important; }
     `
         : theme === "light"
         ? `
@@ -126,8 +129,8 @@ function injectThemeStyleToSvg(svgText: string, theme?: string): string {
     `
         : `
       @media (prefers-color-scheme: dark) {
-        [fill="#000000" i], [fill="#000" i], [fill="black" i], [fill="#231f20" i], [fill="#111111" i], [fill="#111" i], [fill="#010101" i] { fill: #ffffff !important; }
-        [stroke="#000000" i], [stroke="#000" i], [stroke="black" i], [stroke="#231f20" i], [stroke="#111111" i], [stroke="#111" i], [stroke="#010101" i] { stroke: #ffffff !important; }
+        [fill="#000000" i], [fill="#000" i], [fill="black" i], [fill="#231f20" i], [fill="#111111" i], [fill="#111" i], [fill="#010101" i], [fill="#1c3c3c" i] { fill: #ffffff !important; }
+        [stroke="#000000" i], [stroke="#000" i], [stroke="black" i], [stroke="#231f20" i], [stroke="#111111" i], [stroke="#111" i], [stroke="#010101" i], [stroke="#1c3c3c" i] { stroke: #ffffff !important; }
       }
       @media (prefers-color-scheme: light) {
         ${

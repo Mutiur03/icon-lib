@@ -605,11 +605,11 @@
     "id": "jenkins",
     "name": "Jenkins",
     "category": "devops",
-    "source": "skillicon",
+    "source": "devicon",
     "iconUrl": "jenkins",
     "website": "https://www.jenkins.io/",
     "color": "#d24939",
-    "iconSources": { "skillicon": "jenkins" }
+    "iconSources": { "devicon": "jenkins" }
   },
   {
     "id": "gitlab",
