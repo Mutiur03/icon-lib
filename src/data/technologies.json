@@ -219,7 +219,7 @@
     "source": "skillicon",
     "iconUrl": "django",
     "website": "https://www.djangoproject.com/",
-    "color": "#092e20",
+    "color": "#44b78b",
     "iconSources": { "skillicon": "django", "devicon": "django" }
   },
   {
@@ -290,7 +290,7 @@
     "source": "skillicon",
     "iconUrl": "sqlite",
     "website": "https://www.sqlite.org/",
-    "color": "#003b57",
+    "color": "#0f80c1",
     "iconSources": { "skillicon": "sqlite", "devicon": "sqlite" }
   },
   {
@@ -471,7 +471,7 @@
     "iconUrl": "prisma",
     "website": "https://www.prisma.io/",
     "featured": true,
-    "color": "#2d3748",
+    "color": "#16a34a",
     "iconSources": { "skillicon": "prisma", "devicon": "prisma" }
   },
   {
@@ -481,7 +481,7 @@
     "source": "skillicon",
     "iconUrl": "sentry",
     "website": "https://sentry.io/",
-    "color": "#362d59",
+    "color": "#e1567c",
     "iconSources": { "skillicon": "sentry" }
   },
   {
@@ -512,7 +512,7 @@
     "source": "custom",
     "iconUrl": "/icons/custom/socket-io.svg",
     "website": "https://socket.io/",
-    "color": "#010101",
+    "color": "#ffffff",
     "iconSources": { "custom": "/icons/custom/socket-io.svg",  "devicon": "socketio" }
   }
   ,
@@ -573,7 +573,7 @@
     "source": "custom",
     "iconUrl": "/icons/custom/kafka.svg",
     "website": "https://kafka.apache.org/",
-    "color": "#231f20",
+    "color": "#e35824",
     "iconSources": { "custom": "/icons/custom/kafka.svg" }
   },
   {

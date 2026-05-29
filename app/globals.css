@@ -12,3 +12,25 @@ body {
 body {
   margin: 0;
 }
+
+.tech-card {
+  --tech-color: #10b981;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+              background-color 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.tech-card:hover {
+  transform: translateY(-4px) !important;
+  border-color: color-mix(in srgb, var(--tech-color) 60%, transparent) !important;
+  background-color: color-mix(in srgb, var(--tech-color) 6%, #0f172a) !important;
+  box-shadow: 0 12px 30px -10px color-mix(in srgb, var(--tech-color) 45%, transparent),
+              0 14px 40px rgba(0, 0, 0, 0.4) !important;
+}
+
+.tech-card:focus-visible {
+  border-color: var(--tech-color) !important;
+  outline: none !important;
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--tech-color) 40%, transparent) !important;
+}

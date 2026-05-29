@@ -6,7 +6,8 @@ import { TechnologyIcon } from "./TechnologyIcon";
 export function TechnologyCard({ technology }: { technology: ResolvedTechnology }) {
   return (
     <a
-      className="group flex min-h-35.5 flex-col justify-between gap-4 overflow-hidden rounded-xl border border-slate-800 bg-slate-900/80 p-4 text-inherit shadow-[0_14px_40px_rgba(0,0,0,0.28)] transition duration-150 hover:-translate-y-0.5 hover:border-emerald-400/70 hover:bg-slate-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400/40 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
+      className="tech-card group flex min-h-35.5 flex-col justify-between gap-4 overflow-hidden rounded-xl border border-slate-800 bg-slate-900/80 p-4 text-inherit shadow-[0_14px_40px_rgba(0,0,0,0.28)]"
+      style={{ "--tech-color": technology.color || "#10b981" } as React.CSSProperties}
       href={technologyIconPath(technology.id)}
       aria-label={`Open ${technology.name} icon`}
     >
@@ -14,7 +15,11 @@ export function TechnologyCard({ technology }: { technology: ResolvedTechnology 
         <TechnologyIcon technology={technology} size={46} />
         {technology.featured ? (
           <span
-            className="inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-400/15 text-emerald-300"
+            className="inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-full"
+            style={{
+              backgroundColor: "color-mix(in srgb, var(--tech-color) 15%, transparent)",
+              color: "color-mix(in srgb, var(--tech-color) 90%, #f1f5f9)"
+            }}
             aria-label="Featured"
             title="Featured"
           >
