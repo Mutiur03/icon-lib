@@ -87,6 +87,27 @@
     "iconSources": { "skillicon": "php", "devicon": "php" }
   },
   {
+    "id": "go",
+    "name": "Go",
+    "category": "language",
+    "source": "skillicon",
+    "iconUrl": "go",
+    "website": "https://go.dev/",
+    "color": "#00add8",
+    "iconSources": { "skillicon": "go", "devicon": "go" },
+    "aliases": ["golang"]
+  },
+  {
+    "id": "rust",
+    "name": "Rust",
+    "category": "language",
+    "source": "skillicon",
+    "iconUrl": "rust",
+    "website": "https://www.rust-lang.org/",
+    "color": "#e24a35",
+    "iconSources": { "skillicon": "rust", "devicon": "rust" }
+  },
+  {
     "id": "react",
     "name": "React",
     "category": "frontend",
@@ -211,6 +232,29 @@
     "website": "https://fastapi.tiangolo.com/",
     "color": "#009688",
     "iconSources": { "skillicon": "fastapi", "devicon": "fastapi" }
+  },
+  {
+    "id": "dotnet",
+    "name": ".NET",
+    "category": "backend",
+    "source": "skillicon",
+    "iconUrl": "dotnet",
+    "website": "https://dotnet.microsoft.com/",
+    "featured": true,
+    "color": "#512bd4",
+    "iconSources": { "skillicon": "dotnet", "devicon": "dotnet" },
+    "aliases": ["dotnet", "dot-net", ".net-core", "dotnetcore"]
+  },
+  {
+    "id": "spring-boot",
+    "name": "Spring Boot",
+    "category": "backend",
+    "source": "skillicon",
+    "iconUrl": "spring",
+    "website": "https://spring.io/projects/spring-boot",
+    "color": "#6db33f",
+    "iconSources": { "skillicon": "spring", "devicon": "spring" },
+    "aliases": ["spring", "springboot"]
   },
   {
     "id": "django",
@@ -430,6 +474,26 @@
     "featured": true,
     "color": "#13b495",
     "iconSources": { "custom": "/icons/custom/langchain.svg" }
+  },
+  {
+    "id": "pytorch",
+    "name": "PyTorch",
+    "category": "ai",
+    "source": "skillicon",
+    "iconUrl": "pytorch",
+    "website": "https://pytorch.org/",
+    "color": "#ee4c2c",
+    "iconSources": { "skillicon": "pytorch", "devicon": "pytorch" }
+  },
+  {
+    "id": "tensorflow",
+    "name": "TensorFlow",
+    "category": "ai",
+    "source": "skillicon",
+    "iconUrl": "tensorflow",
+    "website": "https://www.tensorflow.org/",
+    "color": "#ff6f00",
+    "iconSources": { "skillicon": "tensorflow", "devicon": "tensorflow" }
   },
   {
     "id": "git",

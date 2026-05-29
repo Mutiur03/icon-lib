@@ -4,13 +4,14 @@ export const FALLBACK_ICON_URL = "/icons/fallback.svg";
 
 const sourceOrder: Array<TechnologySource> = ["skillicon", "devicon", "custom"];
 
-const providerUrl = (source: TechnologySource, value: string) => {
+const providerUrl = (source: TechnologySource, value: string, theme?: string) => {
   if (!value) return "";
   if (value.startsWith("/") || value.startsWith("http") || value.startsWith("data:")) return value;
 
   switch (source) {
     case "skillicon":
-      return `https://skillicons.dev/icons?i=${encodeURIComponent(value)}`;
+      const themeParam = theme ? `&theme=${encodeURIComponent(theme)}` : "";
+      return `https://skillicons.dev/icons?i=${encodeURIComponent(value)}${themeParam}`;
     case "devicon":
       return `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${value}/${value}-original.svg`;
     // Note: Simple Icons deprecated — handled by registry mapping to SkillIcons.
@@ -31,10 +32,10 @@ export function resolveTechnologyIcon(technology: TechnologyRecord): ResolvedTec
   };
 }
 
-export function resolveProviderTechnologyIcon(technology: TechnologyRecord): ResolvedTechnology {
+export function resolveProviderTechnologyIcon(technology: TechnologyRecord, theme?: string): ResolvedTechnology {
   for (const source of sourceOrder) {
     const candidate = technology.iconSources?.[source];
-    const iconUrl = candidate ? providerUrl(source, candidate) : "";
+    const iconUrl = candidate ? providerUrl(source, candidate, theme) : "";
     if (iconUrl) {
       return { ...technology, resolvedSource: source, resolvedIconUrl: iconUrl };
     }
@@ -44,7 +45,7 @@ export function resolveProviderTechnologyIcon(technology: TechnologyRecord): Res
     return {
       ...technology,
       resolvedSource: technology.source,
-      resolvedIconUrl: providerUrl(technology.source, technology.iconUrl)
+      resolvedIconUrl: providerUrl(technology.source, technology.iconUrl, theme)
     };
   }
 

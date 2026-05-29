@@ -2,14 +2,14 @@ import type { TechnologyCategory } from "./types";
 
 export const TECHNOLOGY_CATEGORIES: Array<{ id: TechnologyCategory; label: string }> = [
   { id: "language", label: "Languages" },
-  { id: "frontend", label: "Frontend" },
-  { id: "backend", label: "Backend" },
-  { id: "database", label: "Databases" },
-  { id: "cloud", label: "Cloud" },
-  { id: "devops", label: "DevOps" },
-  { id: "ai", label: "AI" },
-  { id: "tool", label: "Tools" },
-  { id: "other", label: "Other" }
+  { id: "frontend", label: "Frontend Development" },
+  { id: "backend", label: "Backend Development" },
+  { id: "database", label: "Databases & Cache" },
+  { id: "cloud", label: "Cloud Platforms" },
+  { id: "devops", label: "DevOps & CI/CD" },
+  { id: "ai", label: "AI & Machine Learning" },
+  { id: "tool", label: "Development Tools" },
+  { id: "other", label: "Other Services & APIs" }
 ];
 
 export const categoryLabel = (category: TechnologyCategory) =>

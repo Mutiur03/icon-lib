@@ -1,13 +1,25 @@
 import { TechnologyCategory } from "@/components/technology/TechnologyCategory";
 import { TechnologyGrid } from "@/components/technology/TechnologyGrid";
 import { getTechnologies } from "@/lib/technology/registry";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 export default function HomePage() {
   const technologies = getTechnologies();
 
   return (
-    <main className="mx-auto w-full max-w-295 px-4 pb-16 pt-12 sm:px-6 lg:px-0">
-      <section className="grid min-h-[46vh] gap-8 border-b border-slate-800 pb-10 pt-14 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-end lg:pt-16">
+    <main className="mx-auto w-full max-w-295 px-4 pb-16 pt-6 sm:px-6 lg:px-0">
+      {/* Top Navigation / Header */}
+      <header className="flex justify-between items-center py-4 border-b border-slate-800 mb-8" aria-label="Global header">
+        <div className="flex items-center gap-3 select-none">
+          <div className="h-9 w-9 rounded-lg bg-emerald-400 flex items-center justify-center text-slate-950 font-extrabold text-lg shadow-[0_4px_12px_rgba(52,211,153,0.3)]">
+            I
+          </div>
+          <span className="font-bold text-white text-xl tracking-tight">IconLib</span>
+        </div>
+        <ThemeToggle />
+      </header>
+
+      <section className="grid min-h-[38vh] gap-8 border-b border-slate-800 pb-10 pt-4 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-end lg:pt-6">
         <div>
           <p className="mb-4 text-sm font-semibold uppercase tracking-wide text-emerald-300">Portfolio system</p>
           <h1 className="mb-5 max-w-4xl text-5xl leading-none tracking-tight text-white sm:text-6xl lg:text-7xl">

@@ -7,10 +7,11 @@ export type { Technology, TechnologyCategory, TechnologyRecord, TechnologySource
 export const technologies = registry as TechnologyRecord[];
 
 export function getTechnologies(): ResolvedTechnology[] {
-  return technologies.map((technology) => {
+  const resolved = technologies.map((technology) => {
     const { website: _website, ...publicTechnology } = resolveTechnologyIcon(technology);
     return publicTechnology;
   });
+  return resolved.sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: "base" }));
 }
 
 export function getTechnologyById(id: string): ResolvedTechnology | undefined {
