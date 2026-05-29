@@ -2,7 +2,7 @@ import type { ResolvedTechnology, TechnologyRecord, TechnologySource } from "./t
 
 export const FALLBACK_ICON_URL = "/icons/fallback.svg";
 
-const sourceOrder: Array<TechnologySource> = ["custom", "skillicon", "devicon", "simpleicon"];
+const sourceOrder: Array<TechnologySource> = ["skillicon", "devicon", "custom"];
 
 const providerUrl = (source: TechnologySource, value: string) => {
   if (!value) return "";
@@ -13,8 +13,7 @@ const providerUrl = (source: TechnologySource, value: string) => {
       return `https://skillicons.dev/icons?i=${encodeURIComponent(value)}`;
     case "devicon":
       return `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${value}/${value}-original.svg`;
-    case "simpleicon":
-      return `https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/${value}.svg`;
+    // Note: Simple Icons deprecated — handled by registry mapping to SkillIcons.
     case "custom":
       return value;
   }

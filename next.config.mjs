@@ -5,7 +5,7 @@ const nextConfig = {
       { protocol: "https", hostname: "skillicons.dev" },
       { protocol: "https", hostname: "cdn.jsdelivr.net" },
       { protocol: "https", hostname: "raw.githubusercontent.com" },
-      { protocol: "https", hostname: "simpleicons.org" }
+
     ]
   }
 };

@@ -9,7 +9,7 @@ export type TechnologyCategory =
   | "tool"
   | "other";
 
-export type TechnologySource = "skillicon" | "devicon" | "simpleicon" | "custom";
+export type TechnologySource = "skillicon" | "devicon" | "custom";
 
 export interface Technology {
   id: string;
@@ -35,7 +35,6 @@ export interface TechnologyIconSources {
   custom?: string;
   skillicon?: string;
   devicon?: string;
-  simpleicon?: string;
 }
 
 export interface TechnologyRecord extends Technology {

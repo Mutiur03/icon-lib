@@ -8,7 +8,7 @@
     "website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     "featured": true,
     "color": "#f7df1e",
-    "iconSources": { "skillicon": "js", "devicon": "javascript", "simpleicon": "javascript" },
+    "iconSources": { "skillicon": "js", "devicon": "javascript" },
     "aliases": ["js", "ecmascript"]
   },
   {
@@ -20,7 +20,7 @@
     "website": "https://www.typescriptlang.org/",
     "featured": true,
     "color": "#3178c6",
-    "iconSources": { "skillicon": "ts", "devicon": "typescript", "simpleicon": "typescript" },
+    "iconSources": { "skillicon": "ts", "devicon": "typescript" },
     "aliases": ["ts"]
   },
   {
@@ -32,7 +32,7 @@
     "website": "https://www.python.org/",
     "featured": true,
     "color": "#3776ab",
-    "iconSources": { "skillicon": "py", "devicon": "python", "simpleicon": "python" }
+    "iconSources": { "skillicon": "py", "devicon": "python" }
   },
   {
     "id": "java",
@@ -42,7 +42,7 @@
     "iconUrl": "java",
     "website": "https://www.java.com/",
     "color": "#f89820",
-    "iconSources": { "skillicon": "java", "devicon": "java", "simpleicon": "openjdk" }
+    "iconSources": {"skillicon": "java", "devicon": "java" }
   },
   {
     "id": "c",
@@ -52,7 +52,7 @@
     "iconUrl": "c",
     "website": "https://www.iso.org/standard/82075.html",
     "color": "#a8b9cc",
-    "iconSources": { "skillicon": "c", "devicon": "c", "simpleicon": "c" }
+    "iconSources": { "skillicon": "c", "devicon": "c" }
   },
   {
     "id": "cpp",
@@ -62,7 +62,7 @@
     "iconUrl": "cpp",
     "website": "https://isocpp.org/",
     "color": "#00599c",
-    "iconSources": { "skillicon": "cpp", "devicon": "cplusplus", "simpleicon": "cplusplus" },
+    "iconSources": { "skillicon": "cpp", "devicon": "cplusplus" },
     "aliases": ["cplusplus", "c-plus-plus"]
   },
   {
@@ -73,7 +73,7 @@
     "iconUrl": "cs",
     "website": "https://learn.microsoft.com/en-us/dotnet/csharp/",
     "color": "#512bd4",
-    "iconSources": { "skillicon": "cs", "devicon": "csharp", "simpleicon": "csharp" },
+    "iconSources": { "skillicon": "cs", "devicon": "csharp" },
     "aliases": ["c#", "c-sharp"]
   },
   {
@@ -84,7 +84,7 @@
     "iconUrl": "php",
     "website": "https://www.php.net/",
     "color": "#777bb4",
-    "iconSources": { "skillicon": "php", "devicon": "php", "simpleicon": "php" }
+    "iconSources": { "skillicon": "php", "devicon": "php" }
   },
   {
     "id": "react",
@@ -95,7 +95,7 @@
     "website": "https://react.dev/",
     "featured": true,
     "color": "#61dafb",
-    "iconSources": { "skillicon": "react", "devicon": "react", "simpleicon": "react" }
+    "iconSources": { "skillicon": "react", "devicon": "react" }
   },
   {
     "id": "nextjs",
@@ -106,7 +106,7 @@
     "website": "https://nextjs.org/",
     "featured": true,
     "color": "#ffffff",
-    "iconSources": { "skillicon": "nextjs", "devicon": "nextjs", "simpleicon": "nextdotjs" },
+    "iconSources": { "skillicon": "nextjs", "devicon": "nextjs" },
     "aliases": ["next", "next.js"]
   },
   {
@@ -117,7 +117,7 @@
     "iconUrl": "vue",
     "website": "https://vuejs.org/",
     "color": "#4fc08d",
-    "iconSources": { "skillicon": "vue", "devicon": "vuejs", "simpleicon": "vuedotjs" }
+    "iconSources": { "skillicon": "vue", "devicon": "vue" }
   },
   {
     "id": "nuxt",
@@ -127,7 +127,7 @@
     "iconUrl": "nuxtjs",
     "website": "https://nuxt.com/",
     "color": "#00dc82",
-    "iconSources": { "skillicon": "nuxtjs", "devicon": "nuxtjs", "simpleicon": "nuxt" }
+    "iconSources": { "skillicon": "nuxt", "devicon": "nuxtjs"  }
   },
   {
     "id": "html",
@@ -137,7 +137,7 @@
     "iconUrl": "html",
     "website": "https://developer.mozilla.org/en-US/docs/Web/HTML",
     "color": "#e34f26",
-    "iconSources": { "skillicon": "html", "devicon": "html5", "simpleicon": "html5" }
+    "iconSources": { "skillicon": "html", "devicon": "html5" }
   },
   {
     "id": "css",
@@ -147,7 +147,7 @@
     "iconUrl": "css",
     "website": "https://developer.mozilla.org/en-US/docs/Web/CSS",
     "color": "#1572b6",
-    "iconSources": { "skillicon": "css", "devicon": "css3", "simpleicon": "css3" }
+    "iconSources": { "skillicon": "css", "devicon": "css3" }
   },
   {
     "id": "tailwind",
@@ -158,7 +158,7 @@
     "website": "https://tailwindcss.com/",
     "featured": true,
     "color": "#06b6d4",
-    "iconSources": { "skillicon": "tailwind", "devicon": "tailwindcss", "simpleicon": "tailwindcss" }
+    "iconSources": { "skillicon": "tailwind", "devicon": "tailwindcss" }
   },
   {
     "id": "material-ui",
@@ -168,7 +168,7 @@
     "iconUrl": "materialui",
     "website": "https://mui.com/",
     "color": "#007fff",
-    "iconSources": { "skillicon": "materialui", "devicon": "materialui", "simpleicon": "mui" },
+    "iconSources": { "skillicon": "mui", "devicon": "materialui" },
     "aliases": ["mui"]
   },
   {
@@ -180,7 +180,7 @@
     "website": "https://nodejs.org/",
     "featured": true,
     "color": "#5fa04e",
-    "iconSources": { "skillicon": "nodejs", "devicon": "nodejs", "simpleicon": "nodedotjs" }
+    "iconSources": {"skillicon": "nodejs", "devicon": "nodejs" }
   },
   {
     "id": "express",
@@ -190,7 +190,7 @@
     "iconUrl": "express",
     "website": "https://expressjs.com/",
     "color": "#ffffff",
-    "iconSources": { "skillicon": "express", "devicon": "express", "simpleicon": "express" }
+    "iconSources": { "skillicon": "express", "devicon": "express" }
   },
   {
     "id": "nestjs",
@@ -200,7 +200,7 @@
     "iconUrl": "nestjs",
     "website": "https://nestjs.com/",
     "color": "#e0234e",
-    "iconSources": { "skillicon": "nestjs", "devicon": "nestjs", "simpleicon": "nestjs" }
+    "iconSources": { "skillicon": "nestjs", "devicon": "nestjs" }
   },
   {
     "id": "fastapi",
@@ -210,7 +210,7 @@
     "iconUrl": "fastapi",
     "website": "https://fastapi.tiangolo.com/",
     "color": "#009688",
-    "iconSources": { "skillicon": "fastapi", "devicon": "fastapi", "simpleicon": "fastapi" }
+    "iconSources": { "skillicon": "fastapi", "devicon": "fastapi" }
   },
   {
     "id": "django",
@@ -220,7 +220,7 @@
     "iconUrl": "django",
     "website": "https://www.djangoproject.com/",
     "color": "#092e20",
-    "iconSources": { "skillicon": "django", "devicon": "django", "simpleicon": "django" }
+    "iconSources": { "skillicon": "django", "devicon": "django" }
   },
   {
     "id": "flask",
@@ -230,7 +230,7 @@
     "iconUrl": "flask",
     "website": "https://flask.palletsprojects.com/",
     "color": "#ffffff",
-    "iconSources": { "skillicon": "flask", "devicon": "flask", "simpleicon": "flask" }
+    "iconSources": { "skillicon": "flask", "devicon": "flask" }
   },
   {
     "id": "laravel",
@@ -240,7 +240,7 @@
     "iconUrl": "laravel",
     "website": "https://laravel.com/",
     "color": "#ff2d20",
-    "iconSources": { "skillicon": "laravel", "devicon": "laravel", "simpleicon": "laravel" }
+    "iconSources": { "skillicon": "laravel", "devicon": "laravel" }
   },
   {
     "id": "graphql",
@@ -250,7 +250,7 @@
     "iconUrl": "graphql",
     "website": "https://graphql.org/",
     "color": "#e10098",
-    "iconSources": { "skillicon": "graphql", "devicon": "graphql", "simpleicon": "graphql" }
+    "iconSources": { "skillicon": "graphql", "devicon": "graphql" }
   },
   {
     "id": "postgresql",
@@ -261,7 +261,7 @@
     "website": "https://www.postgresql.org/",
     "featured": true,
     "color": "#4169e1",
-    "iconSources": { "skillicon": "postgres", "devicon": "postgresql", "simpleicon": "postgresql" }
+    "iconSources": { "skillicon": "postgres", "devicon": "postgresql" }
   },
   {
     "id": "oracle",
@@ -271,7 +271,7 @@
     "iconUrl": "/icons/custom/oracle.svg",
     "website": "https://www.oracle.com/",
     "color": "#f80000",
-    "iconSources": { "custom": "/icons/custom/oracle.svg", "simpleicon": "oracle" }
+    "iconSources": { "custom": "/icons/custom/oracle.svg" }
   },
   {
     "id": "mysql",
@@ -281,7 +281,7 @@
     "iconUrl": "mysql",
     "website": "https://www.mysql.com/",
     "color": "#4479a1",
-    "iconSources": { "skillicon": "mysql", "devicon": "mysql", "simpleicon": "mysql" }
+    "iconSources": { "skillicon": "mysql", "devicon": "mysql" }
   },
   {
     "id": "sqlite",
@@ -291,7 +291,7 @@
     "iconUrl": "sqlite",
     "website": "https://www.sqlite.org/",
     "color": "#003b57",
-    "iconSources": { "skillicon": "sqlite", "devicon": "sqlite", "simpleicon": "sqlite" }
+    "iconSources": { "skillicon": "sqlite", "devicon": "sqlite" }
   },
   {
     "id": "mongodb",
@@ -302,7 +302,7 @@
     "website": "https://www.mongodb.com/",
     "featured": true,
     "color": "#47a248",
-    "iconSources": { "skillicon": "mongodb", "devicon": "mongodb", "simpleicon": "mongodb" }
+    "iconSources": { "skillicon": "mongodb", "devicon": "mongodb" }
   },
   {
     "id": "redis",
@@ -312,7 +312,7 @@
     "iconUrl": "redis",
     "website": "https://redis.io/",
     "color": "#ff4438",
-    "iconSources": { "skillicon": "redis", "devicon": "redis", "simpleicon": "redis" }
+    "iconSources": { "skillicon": "redis", "devicon": "redis" }
   },
   {
     "id": "firebase",
@@ -322,7 +322,7 @@
     "iconUrl": "firebase",
     "website": "https://firebase.google.com/",
     "color": "#ffca28",
-    "iconSources": { "skillicon": "firebase", "devicon": "firebase", "simpleicon": "firebase" }
+    "iconSources": { "skillicon": "firebase", "devicon": "firebase" }
   },
   {
     "id": "supabase",
@@ -333,7 +333,7 @@
     "website": "https://supabase.com/",
     "featured": true,
     "color": "#3fcf8e",
-    "iconSources": { "skillicon": "supabase", "devicon": "supabase", "simpleicon": "supabase" }
+    "iconSources": { "skillicon": "supabase", "devicon": "supabase" }
   },
   {
     "id": "docker",
@@ -344,7 +344,7 @@
     "website": "https://www.docker.com/",
     "featured": true,
     "color": "#2496ed",
-    "iconSources": { "skillicon": "docker", "devicon": "docker", "simpleicon": "docker" }
+    "iconSources": { "skillicon": "docker", "devicon": "docker" }
   },
   {
     "id": "kubernetes",
@@ -354,7 +354,7 @@
     "iconUrl": "kubernetes",
     "website": "https://kubernetes.io/",
     "color": "#326ce5",
-    "iconSources": { "skillicon": "kubernetes", "devicon": "kubernetes", "simpleicon": "kubernetes" }
+    "iconSources": { "skillicon": "kubernetes", "devicon": "kubernetes" }
   },
   {
     "id": "nginx",
@@ -364,17 +364,17 @@
     "iconUrl": "nginx",
     "website": "https://nginx.org/",
     "color": "#009639",
-    "iconSources": { "skillicon": "nginx", "devicon": "nginx", "simpleicon": "nginx" }
+    "iconSources": { "skillicon": "nginx", "devicon": "nginx" }
   },
   {
     "id": "github-actions",
     "name": "GitHub Actions",
     "category": "devops",
-    "source": "simpleicon",
+    "source": "skillicon",
     "iconUrl": "githubactions",
     "website": "https://github.com/features/actions",
     "color": "#2088ff",
-    "iconSources": {"skillicon": "githubactions", "simpleicon": "githubactions" }
+    "iconSources": { "skillicon": "githubactions" }
   },
   {
     "id": "aws",
@@ -385,7 +385,7 @@
     "website": "https://aws.amazon.com/",
     "featured": true,
     "color": "#ff9900",
-    "iconSources": { "skillicon": "aws", "devicon": "amazonwebservices", "simpleicon": "amazonwebservices" }
+    "iconSources": { "skillicon": "aws", "devicon": "amazonwebservices" }
   },
   {
     "id": "google-cloud",
@@ -395,7 +395,7 @@
     "iconUrl": "gcp",
     "website": "https://cloud.google.com/",
     "color": "#4285f4",
-    "iconSources": { "skillicon": "gcp", "devicon": "googlecloud", "simpleicon": "googlecloud" },
+    "iconSources": { "skillicon": "gcp", "devicon": "googlecloud" },
     "aliases": ["gcp"]
   },
   {
@@ -406,7 +406,7 @@
     "iconUrl": "cloudflare",
     "website": "https://www.cloudflare.com/",
     "color": "#f38020",
-    "iconSources": { "skillicon": "cloudflare", "devicon": "cloudflare", "simpleicon": "cloudflare" }
+    "iconSources": { "skillicon": "cloudflare", "devicon": "cloudflare" }
   },
   {
     "id": "vercel",
@@ -417,59 +417,19 @@
     "website": "https://vercel.com/",
     "featured": true,
     "color": "#ffffff",
-    "iconSources": { "skillicon": "vercel", "devicon": "vercel", "simpleicon": "vercel" }
+    "iconSources": { "skillicon": "vercel", "devicon": "vercel" }
   },
-  {
-    "id": "cloud-run",
-    "name": "Cloud Run",
-    "category": "cloud",
-    "source": "simpleicon",
-    "iconUrl": "googlecloud",
-    "website": "https://cloud.google.com/run",
-    "color": "#4285f4",
-    "iconSources": { "simpleicon": "googlecloud", "devicon": "googlecloud" }
-  },
-  {
-    "id": "openai",
-    "name": "OpenAI",
-    "category": "ai",
-    "source": "simpleicon",
-    "iconUrl": "openai",
-    "website": "https://openai.com/",
-    "featured": true,
-    "color": "#ffffff",
-    "iconSources": { "simpleicon": "openai" }
-  },
+  
   {
     "id": "langchain",
     "name": "LangChain",
     "category": "ai",
-    "source": "simpleicon",
-    "iconUrl": "langchain",
+    "source": "custom",
+    "iconUrl": "/icons/custom/langchain.svg",
     "website": "https://www.langchain.com/",
     "featured": true,
-    "color": "#1c3c3c",
-    "iconSources": { "simpleicon": "langchain" }
-  },
-  {
-    "id": "claude",
-    "name": "Claude",
-    "category": "ai",
-    "source": "simpleicon",
-    "iconUrl": "anthropic",
-    "website": "https://www.anthropic.com/claude",
-    "color": "#d4a27f",
-    "iconSources": { "simpleicon": "anthropic" }
-  },
-  {
-    "id": "gemini",
-    "name": "Gemini",
-    "category": "ai",
-    "source": "simpleicon",
-    "iconUrl": "googlegemini",
-    "website": "https://gemini.google.com/",
-    "_color": "#8e75b2",
-    "iconSources": { "simpleicon": "googlegemini" }
+    "color": "#13b495",
+    "iconSources": { "custom": "/icons/custom/langchain.svg" }
   },
   {
     "id": "git",
@@ -480,7 +440,7 @@
     "website": "https://git-scm.com/",
     "featured": true,
     "color": "#f05032",
-    "iconSources": { "skillicon": "git", "devicon": "git", "simpleicon": "git" }
+    "iconSources": { "skillicon": "git", "devicon": "git" }
   },
   {
     "id": "github",
@@ -491,7 +451,7 @@
     "website": "https://github.com/",
     "featured": true,
     "color": "#ffffff",
-    "iconSources": { "skillicon": "github", "devicon": "github", "simpleicon": "github" }
+    "iconSources": { "skillicon": "github", "devicon": "github" }
   },
   {
     "id": "postman",
@@ -501,7 +461,7 @@
     "iconUrl": "postman",
     "website": "https://www.postman.com/",
     "color": "#ff6c37",
-    "iconSources": { "skillicon": "postman", "devicon": "postman", "simpleicon": "postman" }
+    "iconSources": { "skillicon": "postman", "devicon": "postman" }
   },
   {
     "id": "prisma",
@@ -512,27 +472,27 @@
     "website": "https://www.prisma.io/",
     "featured": true,
     "color": "#2d3748",
-    "iconSources": { "skillicon": "prisma", "devicon": "prisma", "simpleicon": "prisma" }
+    "iconSources": { "skillicon": "prisma", "devicon": "prisma" }
   },
   {
     "id": "sentry",
     "name": "Sentry",
     "category": "tool",
-    "source": "simpleicon",
+    "source": "skillicon",
     "iconUrl": "sentry",
     "website": "https://sentry.io/",
     "color": "#362d59",
-    "iconSources": {"skillicon": "sentry", "simpleicon": "sentry" }
+    "iconSources": { "skillicon": "sentry" }
   },
   {
     "id": "clerk",
     "name": "Clerk",
     "category": "other",
-    "source": "simpleicon",
+    "source": "skillicon",
     "iconUrl": "clerk",
     "website": "https://clerk.com/",
     "color": "#6c47ff",
-    "iconSources": { "simpleicon": "clerk" }
+    "iconSources": { "skillicon": "clerk" }
   },
   {
     "id": "stripe",
@@ -543,7 +503,7 @@
     "website": "https://stripe.com/",
     "featured": true,
     "color": "#635bff",
-    "iconSources": { "custom": "/icons/custom/stripe.svg", "simpleicon": "stripe", "skillicon": "stripe" }
+    "iconSources": { "custom": "/icons/custom/stripe.svg"}
   },
   {
     "id": "socket-io",
@@ -552,7 +512,158 @@
     "source": "custom",
     "iconUrl": "/icons/custom/socket-io.svg",
     "website": "https://socket.io/",
-    "color": "#ffffff",
-    "iconSources": { "custom": "/icons/custom/socket-io.svg", "simpleicon": "socketdotio", "skillicon": "socketio", "devicon": "socketio" }
+    "color": "#010101",
+    "iconSources": { "custom": "/icons/custom/socket-io.svg",  "devicon": "socketio" }
+  }
+  ,
+  {
+    "id": "terraform",
+    "name": "Terraform",
+    "category": "devops",
+    "source": "skillicon",
+    "iconUrl": "terraform",
+    "website": "https://www.terraform.io/",
+    "color": "#623ce4",
+    "iconSources": { "skillicon": "terraform" }
+  },
+  {
+    "id": "ansible",
+    "name": "Ansible",
+    "category": "devops",
+    "source": "skillicon",
+    "iconUrl": "ansible",
+    "website": "https://www.ansible.com/",
+    "color": "#000000",
+    "iconSources": { "skillicon": "ansible" }
+  },
+  {
+    "id": "jenkins",
+    "name": "Jenkins",
+    "category": "devops",
+    "source": "skillicon",
+    "iconUrl": "jenkins",
+    "website": "https://www.jenkins.io/",
+    "color": "#d24939",
+    "iconSources": { "skillicon": "jenkins" }
+  },
+  {
+    "id": "gitlab",
+    "name": "GitLab",
+    "category": "devops",
+    "source": "skillicon",
+    "iconUrl": "gitlab",
+    "website": "https://about.gitlab.com/",
+    "color": "#fc6d26",
+    "iconSources": { "skillicon": "gitlab" }
+  },
+  {
+    "id": "circleci",
+    "name": "CircleCI",
+    "category": "devops",
+    "source": "skillicon",
+    "iconUrl": "circleci",
+    "website": "https://circleci.com/",
+    "color": "#343434",
+    "iconSources": { "skillicon": "circleci" }
+  },
+  {
+    "id": "prometheus",
+    "name": "Prometheus",
+    "category": "devops",
+    "source": "skillicon",
+    "iconUrl": "prometheus",
+    "website": "https://prometheus.io/",
+    "color": "#e6522c",
+    "iconSources": { "skillicon": "prometheus" }
+  },
+  {
+    "id": "grafana",
+    "name": "Grafana",
+    "category": "devops",
+    "source": "skillicon",
+    "iconUrl": "grafana",
+    "website": "https://grafana.com/",
+    "color": "#f46800",
+    "iconSources": { "skillicon": "grafana" }
+  },
+  {
+    "id": "datadog",
+    "name": "Datadog",
+    "category": "devops",
+    "source": "skillicon",
+    "iconUrl": "datadog",
+    "website": "https://www.datadoghq.com/",
+    "color": "#667eea",
+    "iconSources": { "skillicon": "datadog" }
+  },
+  {
+    "id": "kafka",
+    "name": "Apache Kafka",
+    "category": "tool",
+    "source": "skillicon",
+    "iconUrl": "apachekafka",
+    "website": "https://kafka.apache.org/",
+    "color": "#231f20",
+    "iconSources": { "skillicon": "apachekafka" }
+  },
+  {
+    "id": "rabbitmq",
+    "name": "RabbitMQ",
+    "category": "tool",
+    "source": "skillicon",
+    "iconUrl": "rabbitmq",
+    "website": "https://www.rabbitmq.com/",
+    "color": "#ff6600",
+    "iconSources": { "skillicon": "rabbitmq" }
+  },
+  {
+    "id": "elasticsearch",
+    "name": "Elasticsearch",
+    "category": "tool",
+    "source": "skillicon",
+    "iconUrl": "elasticsearch",
+    "website": "https://www.elastic.co/elasticsearch/",
+    "color": "#005571",
+    "iconSources": { "skillicon": "elasticsearch" }
+  },
+  {
+    "id": "kibana",
+    "name": "Kibana",
+    "category": "tool",
+    "source": "skillicon",
+    "iconUrl": "kibana",
+    "website": "https://www.elastic.co/kibana/",
+    "color": "#005571",
+    "iconSources": { "skillicon": "kibana" }
+  },
+  {
+    "id": "jest",
+    "name": "Jest",
+    "category": "tool",
+    "source": "skillicon",
+    "iconUrl": "jest",
+    "website": "https://jestjs.io/",
+    "color": "#c21325",
+    "iconSources": { "skillicon": "jest" }
+  },
+  {
+    "id": "playwright",
+    "name": "Playwright",
+    "category": "tool",
+    "source": "skillicon",
+    "iconUrl": "playwright",
+    "website": "https://playwright.dev/",
+    "color": "#000000",
+    "iconSources": { "skillicon": "playwright" }
+  },
+  {
+    "id": "azure",
+    "name": "Microsoft Azure",
+    "category": "cloud",
+    "source": "skillicon",
+    "iconUrl": "microsoftazure",
+    "website": "https://azure.microsoft.com/",
+    "color": "#0078d4",
+    "iconSources": { "skillicon": "microsoftazure" }
   }
  ]

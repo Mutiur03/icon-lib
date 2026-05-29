@@ -12,13 +12,13 @@ export async function GET(_request: Request, { params }: { params: Promise<{ id:
   const iconUrl = technology ? resolveProviderTechnologyIcon(technology).resolvedIconUrl : FALLBACK_ICON_URL;
 
   try {
-    return await iconResponse(iconUrl);
+    return await iconResponse(iconUrl, technology);
   } catch {
     return iconResponse(FALLBACK_ICON_URL);
   }
 }
 
-async function iconResponse(iconUrl: string) {
+async function iconResponse(iconUrl: string, technology?: any) {
   if (iconUrl.startsWith("data:")) {
     const [meta, payload] = iconUrl.split(",", 2);
     const contentType = meta.match(/^data:([^;]+)/)?.[1] ?? "image/svg+xml";
@@ -34,9 +34,14 @@ async function iconResponse(iconUrl: string) {
 
   const response = await fetch(iconUrl, { next: { revalidate: 60 * 60 * 24 } });
   if (!response.ok) throw new Error("Icon fetch failed");
+  const contentType = response.headers.get("content-type") ?? contentTypeFromPath(iconUrl);
+
+  // Do not modify SVGs. Return the upstream response body as-is so icons
+  // preserve original artwork and colors.
+
   const body = await response.arrayBuffer();
   return new NextResponse(body, {
-    headers: iconHeaders(response.headers.get("content-type") ?? contentTypeFromPath(iconUrl))
+    headers: iconHeaders(contentType)
   });
 }
 
