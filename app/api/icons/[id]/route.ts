@@ -4,7 +4,8 @@ import { NextResponse } from "next/server";
 import { FALLBACK_ICON_URL, resolveProviderTechnologyIcon } from "@/lib/technology/sources";
 import { technologies } from "@/lib/technology/registry";
 
-export const dynamic = "force-dynamic";
+// export const dynamic = "force-dynamic";
+export const cache = "force-cache";
 
 export async function GET(request: Request, { params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
