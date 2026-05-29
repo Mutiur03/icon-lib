@@ -4,7 +4,7 @@ import { NextResponse } from "next/server";
 import { FALLBACK_ICON_URL, resolveProviderTechnologyIcon } from "@/lib/technology/sources";
 import { technologies } from "@/lib/technology/registry";
 
-export const dynamic = "force-dynamic";
+// export const dynamic = "force-dynamic";
 
 export async function GET(request: Request, { params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
@@ -15,13 +15,13 @@ export async function GET(request: Request, { params }: { params: Promise<{ id: 
   const iconUrl = technology ? resolveProviderTechnologyIcon(technology, theme).resolvedIconUrl : FALLBACK_ICON_URL;
 
   try {
-    return await iconResponse(iconUrl, technology, theme);
+    return await iconResponse(iconUrl, theme);
   } catch {
-    return iconResponse(FALLBACK_ICON_URL, undefined, theme);
+    return iconResponse(FALLBACK_ICON_URL, theme);
   }
 }
 
-async function iconResponse(iconUrl: string, technology?: any, theme?: string) {
+async function iconResponse(iconUrl: string, theme?: string) {
   if (iconUrl.startsWith("data:")) {
     const [meta, payload] = iconUrl.split(",", 2);
     const contentType = meta.match(/^data:([^;]+)/)?.[1] ?? "image/svg+xml";
