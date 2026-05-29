@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>Fallback technology icon</title>
+  <rect width="64" height="64" rx="14" fill="#15191e"/>
+  <path d="M18 22h28M18 32h28M18 42h18" stroke="#52d6b8" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="48" cy="43" r="5" fill="#7db6ff"/>
+</svg>
